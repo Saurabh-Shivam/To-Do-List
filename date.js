@@ -1,28 +1,28 @@
-// console.log(module);
-//NOTE:-> You can also write module.exports.getDate() = function(){}
-exports.getDate = function () {
+// // console.log(module);
+// //NOTE:-> You can also write module.exports.getDate() = function(){}
+// exports.getDate = function () {
 
-    const today = new Date();
+//     const today = new Date();
 
-    const options = {
-        weekday: "long",
-        day: "numeric",
-        month: "long"
-    };
+//     const options = {
+//         weekday: "long",
+//         day: "numeric",
+//         month: "long"
+//     };
 
-    //For getting day in Indian Hindi Language use hi-In
-    return today.toLocaleDateString("en-In", options);
-}
+//     //For getting day in Indian Hindi Language use hi-In
+//     return today.toLocaleDateString("en-In", options);
+// }
 
-exports.getDay = function () {
+// exports.getDay = function () {
 
-    const today = new Date();
+//     const today = new Date();
 
-    const options = {
-        weekday: "long"
-    };
+//     const options = {
+//         weekday: "long"
+//     };
 
-    return today.toLocaleDateString("en-In", options);
-}
+//     return today.toLocaleDateString("en-In", options);
+// }
 
-// console.log(module.exports);
+// // console.log(module.exports);
